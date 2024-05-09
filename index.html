@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="title">Basketball Scoreboard</h1>
+        <main class="header">
+            <div>
+                <h2>HOME</h2>
+                <div class="h3-container">
+                    <h3 id="home-score">0</h3>
+                </div>
+                <div class="buttons">
+                    <button id="home-plus1" onclick="homeScorePlusOne()">+1</button>
+                    <button id="home-plus2" onclick="homeScorePlusTwo()">+2</button>
+                    <button id="home-plus3" onclick="homeScorePlusThree()">+3</button>
+                    <button id="home-reset" onclick="homeScoreReset()">reset</button>
+                </div>
+            </div>
+            <div>
+                <h2>AWAY</h2>
+                <div class="h3-container">
+                    <h3 id="away-score">0</h3>
+                </div>
+                <div class="buttons">
+                    <button id="away-plus1" onclick="awayScorePlusOne()">+1</button>
+                    <button id="away-plus2" onclick="awayScorePlusTwo()">+2</button>
+                    <button id="away-plus3" onclick="awayScorePlusThree()">+3</button>
+                    <button id="away-reset" onclick="awayScoreReset()">reset</button>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>
